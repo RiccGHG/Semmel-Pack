@@ -4,3 +4,9 @@ Der Source Code vom SemmelSMP Add-On
 - semmelsmp.aternos.me, 61816
 - Von Ricc
 - Für Discord [Klick hier](https://discord.gg/U4e8W2UZ88)
+
+# Info
+#### Wichtig:
+Ein Paar wichtige sachen sind nicht dabei, weil ich sie aus dem Internet habe. Darunter sind die folgenden Sachen:
+> - Kisten Ui [Kisten Ui Pack]()
+> - Chat-Screen Commands (Nicht verfügbar)
