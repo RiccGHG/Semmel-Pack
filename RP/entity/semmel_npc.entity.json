@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "semmel:semmel_npc",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/semmel_npc"
+			},
+			"geometry": {
+				"default": "geometry.semme"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#ffa700",
+				"overlay_color": "#000000"
+			}
+		}
+	}
+}
