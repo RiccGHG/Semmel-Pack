@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Ricc"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.45"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			70
+		],
+		"uuid": "a307caac-160f-4890-ac27-c21619e13cd2",
+		"version": [
+			1,
+			0,
+			3
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "b0befa3c-245b-4186-a631-376a5238272d",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "731a726d-5ffc-433b-b338-eeafc727b9d7",
+			"version": [
+				1,
+				0,
+				3
+			]
+		}
+	]
+}
