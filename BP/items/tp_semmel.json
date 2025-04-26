@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "semmel:tp_semmel",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "semmel_tp_semmel",
+			"minecraft:hover_text_color": "gold"
+		}
+	}
+}
