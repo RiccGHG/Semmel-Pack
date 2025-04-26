@@ -1,0 +1,43 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"semmel:diamond_gen": {
+		"sound": "stone",
+		"textures": "diamond_ore"
+	},
+	"semmel:fake_dirt": {
+		"sound": "stone",
+		"textures": {
+			"side": "dirt",
+			"up": "dirt",
+			"down": "dirt"
+		}
+	},
+	"semmel:gold_gen": {
+		"sound": "stone",
+		"textures": {
+			"down": "gold_ore",
+			"side": "gold_ore",
+			"up": "gold_ore"
+		}
+	},
+	"semmel:iron_gen": {
+		"sound": "stone",
+		"textures": "iron_ore"
+	},
+	"semmel:coal_gen": {
+		"sound": "stone",
+		"textures": "coal_ore"
+	},
+	"semmel:copper_gen": {
+		"sound": "stone",
+		"textures": "copper_ore"
+	},
+	"semmel:redstone_gen": {
+		"sound": "stone",
+		"textures": "redstone_ore"
+	}
+}
