@@ -1,0 +1,24 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "stick",
+					"functions": [
+						{
+							"function": "specific_enchants",
+							"enchants": [
+								{
+									"id": "knockback",
+									"level": 2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
