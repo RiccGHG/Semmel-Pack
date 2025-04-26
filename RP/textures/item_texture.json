@@ -1,0 +1,39 @@
+{
+	"resource_pack_name": "Semmel pack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"semmel_tp_semmel": {
+			"textures": "textures/items/1000023365"
+		},
+		"semmel_ore_pickaxe": {
+			"textures": "textures/items/ore_picke"
+		},
+		"semmel_gen_diamond": {
+			"textures": "textures/items/diamond"
+		},
+		"semmel_gen_gold_ingot": {
+			"textures": "textures/items/gold_ingot"
+		},
+		"semmel_gen_raw_gold": {
+			"textures": "textures/items/raw_gold"
+		},
+		"semmel_gen_raw_iron": {
+			"textures": "textures/items/raw_iron"
+		},
+		"semmel_gen_iron_ingot": {
+			"textures": "textures/items/iron_ingot"
+		},
+		"semmel_gen_coal": {
+			"textures": "textures/items/coal"
+		},
+		"semmel_gen_raw_copper": {
+			"textures": "textures/items/raw_copper"
+		},
+		"semmel_gen_copper_ingot": {
+			"textures": "textures/items/copper_ingot"
+		},
+		"semmel_gen_redstone": {
+			"textures": "textures/items/redstone_dust"
+		}
+	}
+}
