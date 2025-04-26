@@ -42,13 +42,6 @@ system.runInterval(() => {
         player.removeTag('combat')
       }
     }
-    if (player.name === 'Ricc5967') {
-      if (player.getDynamicProperty('riccsxabdamage...lol.fol') === true) {
-        player.runCommand('event entity @s semmel:is_ricc')
-      } else {
-        player.runCommand('event entity @s semmel:isnt_ricc')
-      }
-    }
   }
 })
 const cmdPrefix = ":";
@@ -3330,61 +3323,6 @@ function dirtster(loc) {
 }
 */
 
-/* Für später
-const fullMessage = args.join(" ");
- 
-// Regex: Erlaubt sowohl "Spieler Name" als auch SpielerName ohne ""
-const match = fullMessage.match(/^"(.*?)"\s+(\d+)\s*(.*)$|^(\S+)\s+(\d+)\s*(.*)$/);
- 
-if (!match) { 
-    player.sendMessage('§cBitte nutze: §e/bounty "Spieler Name" Betrag Nachricht §coder §e/bounty SpielerName Betrag Nachricht');
-        return;
-        }
- 
-        const targetName = match[1] || match[4]; // Name in "" oder erstes Wort
-        const amount = parseInt(match[2] || match[5]); // Betrag als Zahl
-        const message = (match[3] || match[6]).trim(); // Nachricht, falls vorhanden
- 
-        if (isNaN(amount) || amount <= 0) {
-            player.sendMessage('§cDer Betrag muss eine positive Zahl sein!');
-                return;
-                }
- 
-                player.sendMessage(`Debug: targetName = "${targetName}", amount = ${ amount }, message = "${message}"`);
-*/
-
-
 /**To do:
  * report system ^"(.*?)"\s+"(.*?)"(?:\s+(.*))?$|^(\S+)\s+"(.*?)"\s*(.*)?$
- * bounty system
- * chat, name color
  */
-
-/**@type {Player} player */
-class RiccMenu {
-  main(player) {
-    if (player.name !== 'Ricc5967') return
-    const ui = new ActionFormData()
-      .title('Riccs Lounch')
-      .body('Ricc\'s private lounch')
-      .button("Damage")
-      .show(player).then((r) => {
-        if (r.canceled) return
-        switch (r.selection) {
-          case 0:
-            new RiccMenu().damage(player)
-            break;
-        }
-      })
-  }
-  damage(player) {
-    const ui = new ModalFormData()
-      .title('damage')
-      .toggle('enable damage?', player.getDynamicProperty('riccsxabdamage...lol.fol'))
-      .show(player).then((r) => {
-        if (r.canceled) return;
-
-        player.setDynamicProperty('riccsxabdamage...lol.fol', r.formValues[0])
-      })
-  }
-}
