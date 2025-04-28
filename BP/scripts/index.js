@@ -23,7 +23,7 @@ import {
 } from '@minecraft/server'
 import { ActionFormData, ModalFormData, MessageFormData } from '@minecraft/server-ui'
 import { ChestFormData } from './extensions/forms.js';
-const RICC_KEY = 'ricc_7-nsudi_.kompetenz'
+const RICC_KEY = //secrete lol
 /**
  * Set a "new" Player up
  * @param {Player} player The "new" Player */
