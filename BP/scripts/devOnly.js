@@ -1,5 +1,5 @@
 import { world, system } from '@minecraft/server';
-export const KEY = 'riccsxabdamage...lol.fol'
+export const KEY = //Secret 🤫
 /**
  * @param {import('@minecraft/server').Player} player
  */
