@@ -9,5 +9,3 @@ Der Source Code vom SemmelSMP Add-On
 #### Wichtig:
 Ein Paar wichtige sachen sind nicht dabei, weil ich sie aus dem Internet habe. Darunter sind die folgenden Sachen:
 > - [Kisten Ui Pack](https://github.com/Herobrine643928/Chest-UI.git)
-> - Chat-Screen Commands (Nicht verfügbar)
-> - ||hi||
